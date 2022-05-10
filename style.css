@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+}
+
+main{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+img.logo {
+    position: absolute;
+    left: 3.5%;
+    top: 6.5%;
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+section {
+    width: 40%;
+    height: 100%;
+}
+
+.section1{
+    width: 70%;
+}
+
+.inputText {
+    width: 60%;
+    height: 60%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    resize: none;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.btnDecrypt, .btnEncrypt {
+    background-color:#0A3871;
+    color:white;
+    border: 0.5px solid #999;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    cursor: pointer;
+    width: 25%;
+    height: 40px;
+}
+
+
+.btnDecrypt:hover, .btnEncrypt:hover, .btnCopy:hover {
+    background-color: #323330;
+    color:white;
+    transition: 0.5s ease-in-out;
+}
+
+.btnContainer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.section2 {
+    width: 25%;
+    margin-right: 60px;
+    padding-bottom: 50px;
+    background-color: white;
+    border-radius: 30px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.puppetContainer {
+        width: 100%;
+        height: 50%;
+        padding-top: 320px;
+        padding-bottom: 100px;
+        box-sizing: border-box;
+        overflow: auto;
+}
+
+.h3Container {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+
+.paragraphContainer {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+
+.resultContainer {
+    width: 100%;
+    height: 70%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.copyContainer {
+    width: 100%;
+    height: 20%;
+}
+
+.btnCopy {
+    background-color:#0A3871;
+    color:white;
+    border: 0.5px solid #999;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    cursor: pointer;
+    width: 68%;
+    height: 40px;
+    display: block;
+    margin: auto;
+}
+
+/* .btnCopy:hover {
+    background-color: #323330;
+    color:white;
+    transition: 0.5s ease-in-out;
+}
+ */
+footer {
+    width: 100%;
+    height: 50px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.hide {
+    display: none;
+}

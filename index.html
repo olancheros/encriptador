@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./images/encript1.jpg" />
+    </header>
+    <main>
+
+        <section class="section1">
+            <textarea class="inputText" placeholder="Ingrese el texto aqui" rows="20" cols="20"></textarea>
+            <div class="btnContainer">
+                <input type="button" class="btnEncrypt" value="Encriptar">
+                <input type="button" class="btnDecrypt" value="Desencriptar">
+            </div>
+        </section>
+
+        <section class="section2">
+            <div class="puppetContainer">
+                <img class="puppet" src="./images/Muñeco.png" alt="">
+            </div>
+            <div class="h3Container">
+                <h3>Ningún mensaje fue encontrado</h3>
+            </div>
+            <div class="paragraphContainer">
+                <p>Ingresa el texto que deseas encriptar o desencriptar</p>
+            </div>
+            <div class="resultContainer">
+                <!-- <h3>Mensaje encriptado:</h3> -->
+                <p class="finalResult" id="content"></p>
+            </div>
+            <div class="copyContainer">
+                <input type="button" id="copyID" class="btnCopy" onclick="copyToClipBoard()" value="Copiar">
+            </div>
+        </section>
+    </main>
+        <footer>
+        @olancherosDev
+        </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
